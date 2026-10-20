@@ -4,7 +4,7 @@ public class count{
         int[] arr={1,2,1,2,3,3,4};
         int[] c=new int[100];   
         for(int n:arr){
-            c[arr[n]]++;
+            c[n]++;
         }
         System.out.println(Arrays.toString(c));
     }
